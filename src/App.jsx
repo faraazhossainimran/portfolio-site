@@ -1,12 +1,13 @@
 import './App.css'
-import Banner from './pages/Home/Banner/Banner'
 import Home from './pages/Home/Home/Home'
+
+
 
 function App() {
   return (
     <>
-      <Home></Home>
-      <Banner></Banner>
+      <div className='bg-[#0e172b]'><Home></Home></div>
+      
     </>
   )
 }

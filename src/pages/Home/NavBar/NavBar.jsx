@@ -1,12 +1,14 @@
 import React from "react";
 
 const NavBar = () => {
-    const navLinks = <>
-    <li>About</li>
+    const navItems = <>
+    <li className="mr-4 text-lg">Linkedin</li>
+    <li className="mr-4 text-lg">Github</li>
+    <li className="mr-4 text-lg">twitter</li>
     </>
   return (
     <div>
-      <div className="navbar bg-white text-black">
+      <div className="navbar text-white py-6">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,14 +31,14 @@ const NavBar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              {navLinks}
+              {navItems}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Imran</a>
+          <a className="btn btn-ghost text-2xl">Ims</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            {navLinks}
+            {navItems}
           </ul>
         </div>
         <div className="navbar-end">
