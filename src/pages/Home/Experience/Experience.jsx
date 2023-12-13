@@ -1,15 +1,14 @@
 import React from "react";
-
 const Experience = () => {
   return (
-    <div className="py-12">
-      <h1 className="text-3xl text-white my-12 text-center">Experience</h1>
+    <div className="py-12 m-4">
+      <h1 className="text-3xl text-[#a6c7e3] my-12 text-center">Experience</h1>
       <ul className="timeline timeline-vertical">
         <li>
           <div className="timeline-start ">
-            <div className="timeline-end timeline-box ">
-              <h3 className="text-2xl">Assistant English Teacher</h3>
-              <p className="text-xl">
+            <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+              <h3 className="text-2xl text-[#a6c7e3]">Assistant English Teacher</h3>
+              <p className="text-xl ">
                 October 2022 - Present | Tunzimul Ummah Madrasah
               </p>
             </div>
@@ -18,8 +17,8 @@ const Experience = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5"
+              fill="#F9E795"
+              className="w-6 h-6"
             >
               <path
                 fillRule="evenodd"
@@ -28,7 +27,7 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box text-xl">
+          <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
             Curently, I'm teaching English as an assistant English Teacher.
           </div>
           <hr />
@@ -36,8 +35,8 @@ const Experience = () => {
         <li>
           <hr />
           <div className="timeline-start ">
-            <div className="timeline-end timeline-box ">
-              <h3 className="text-2xl">Mentor and Co-ordinator</h3>
+            <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+              <h3 className="text-2xl text-[#a6c7e3]">Mentor and Co-ordinator</h3>
               <p className="text-xl">
                 July 2018 - August 2022 | Steps Academic and Admission Care
               </p>
@@ -47,8 +46,8 @@ const Experience = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5"
+              fill="#F9E795"
+              className="w-6 h-6"
             >
               <path
                 fillRule="evenodd"
@@ -57,7 +56,7 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box text-xl">
+          <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
             I was a co-ordinator as well as mentor. I had taken physics class
           </div>
           <hr />

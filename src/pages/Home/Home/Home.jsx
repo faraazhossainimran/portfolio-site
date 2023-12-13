@@ -7,11 +7,13 @@ import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
 import Experience from "../Experience/Experience";
 import Education from "../Education/Education";
+import Promotion from "../Promotion/Promotion";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
     <div>
-      <div className="w-[1000px] mx-auto">
+      <div className="md:w-[1000px] mx-auto">
         <NavBar></NavBar>
         <Banner></Banner>
         <Projects></Projects>
@@ -19,6 +21,8 @@ const Home = () => {
         <Skills></Skills>
         <Experience></Experience>
         <Education></Education>
+        <Promotion></Promotion>
+        <Contact></Contact>
         <Footer></Footer>
       </div>
 

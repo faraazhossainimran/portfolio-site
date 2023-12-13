@@ -1,11 +1,29 @@
-import React from "react";
+import Button from "../../../components/Button/Button";
+import { Link as ScrollLink } from "react-scroll";
 
 const NavBar = () => {
-    const navItems = <>
-    <li className="mr-4 text-lg">Linkedin</li>
-    <li className="mr-4 text-lg">Github</li>
-    <li className="mr-4 text-lg">twitter</li>
+  const navItems = (
+    <>
+      <li className="mr-4 text-lg">
+        <a
+          href="https://www.linkedin.com/in/faraazhossainimran"
+          target="_blank"
+        >
+          Linkedin
+        </a>
+      </li>
+      <li className="mr-4 text-lg">
+        <a href="https://github.com/faraazhossainimran" target="_blank">
+          Github
+        </a>
+      </li>
+      <li className="mr-4 text-lg">
+        <a href=" https://twitter.com/Ho34059710Imran" target="_blank">
+          Twitter
+        </a>
+      </li>
     </>
+  );
   return (
     <div>
       <div className="navbar text-white py-6">
@@ -34,15 +52,29 @@ const NavBar = () => {
               {navItems}
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">Ims</a>
+          {/* https://i.ibb.co/nLqtGwf/i.png */}
+          <div className="avatar">
+            <div className="w-16 rounded-full">
+              <img src="https://i.ibb.co/nLqtGwf/i.png" />
+            </div>
+          </div>
+          {/* <a className="btn btn-ghost text-2xl">Ims</a> */}
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {navItems}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact</a>
+          <ScrollLink
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-70} // Adjust the offset as needed
+          >
+            <button>
+              <Button label={"Contact"} />
+            </button>
+          </ScrollLink>
         </div>
       </div>
     </div>

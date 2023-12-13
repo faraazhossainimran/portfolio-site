@@ -3,13 +3,13 @@ import React from "react";
 const Education = () => {
   return (
     <div>
-      <div className="py-12">
-        <h1 className="text-3xl text-white my-12 text-center">Education</h1>
-        <ul className="timeline timeline-vertical">
+      <div className="pb-8 m-4">
+        <h1 className="text-3xl text-[#a6c7e3] my-12 text-center">Education</h1>
+        <ul className="timeline timeline-vertical ">
           <li>
             <div className="timeline-start ">
-              <div className="timeline-end timeline-box ">
-                <h3 className="text-2xl">B.S.C Hon's</h3>
+              <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+                <h3 className="text-2xl text-[#a6c7e3]">B.S.C Hon's in Botany</h3>
                 <p className="text-xl">
                   November 2017 - November 2023 | Gov Bangla College
                 </p>
@@ -19,8 +19,8 @@ const Education = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5"
+                fill="#F9E795"
+                className="w-6 h-6"
               >
                 <path
                   fillRule="evenodd"
@@ -29,16 +29,16 @@ const Education = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box text-xl">
+            <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
               I've completed my Hon's there. My major subject was Botany
             </div>
             <hr />
           </li>
           <li>
             <hr />
-            <div className="timeline-start ">
-              <div className="timeline-end timeline-box ">
-                <h3 className="text-2xl">Higher Secondary Certificate(HSC)</h3>
+            <div className="timeline-start">
+              <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+                <h3 className="text-2xl text-[#a6c7e3]">Higher Secondary Certificate</h3>
                 <p className="text-xl">
                   July 1015 - April 2017 | Dhaka Imperial College
                 </p>
@@ -48,8 +48,8 @@ const Education = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5"
+                fill="#F9E795"
+                className="w-6 h-6"
               >
                 <path
                   fillRule="evenodd"
@@ -58,8 +58,8 @@ const Education = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box text-xl">
-              I was a co-ordinator as well as mentor. I had taken physics class
+            <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+              I've completed my HSC from Dhaka Imperial College at Aftafnagor.
             </div>
             <hr />
           </li>
