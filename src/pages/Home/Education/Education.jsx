@@ -1,6 +1,10 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 const Education = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div>
       <div className="pb-8 m-4">
@@ -8,9 +12,14 @@ const Education = () => {
         <ul className="timeline timeline-vertical ">
           <li>
             <div className="timeline-start ">
-              <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
-                <h3 className="text-2xl text-[#a6c7e3]">B.S.C Hon's in Botany</h3>
-                <p className="text-xl">
+              <div
+                data-aos="fade-right"
+                className="timeline-end timeline-box bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 text-white border-t-2 border-[#a6c7e3]"
+              >
+                <h3 className="text-2xl text-[#a6c7e3]">
+                  B.S.C Hon's in Botany
+                </h3>
+                <p className="text-xl text-slate-300">
                   November 2017 - November 2023 | Gov Bangla College
                 </p>
               </div>
@@ -29,7 +38,7 @@ const Education = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+            <div data-aos="fade-left" className="text-slate-300 timeline-end timeline-box text-xl bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 border-t-2 border-[#a6c7e3]">
               I've completed my Hon's there. My major subject was Botany
             </div>
             <hr />
@@ -37,9 +46,11 @@ const Education = () => {
           <li>
             <hr />
             <div className="timeline-start">
-              <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
-                <h3 className="text-2xl text-[#a6c7e3]">Higher Secondary Certificate</h3>
-                <p className="text-xl">
+              <div data-aos="fade-right" className="timeline-end timeline-box bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 text-white border-t-2 border-[#a6c7e3]">
+                <h3 className="text-2xl text-[#a6c7e3]">
+                  Higher Secondary Certificate
+                </h3>
+                <p className="text-xl text-slate-300">
                   July 1015 - April 2017 | Dhaka Imperial College
                 </p>
               </div>
@@ -58,7 +69,7 @@ const Education = () => {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+            <div data-aos="fade-left" className="text-slate-300 timeline-end timeline-box text-xl bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6  border-t-2 border-[#a6c7e3]">
               I've completed my HSC from Dhaka Imperial College at Aftafnagor.
             </div>
             <hr />

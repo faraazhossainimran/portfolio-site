@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const NavBar = () => {
   const navItems = (
     <>
-      <li className="mr-4 text-lg">
+      <li className="mr-4 text-lg text-slate-400">
         <a
           href="https://www.linkedin.com/in/faraazhossainimran"
           target="_blank"
@@ -12,12 +12,12 @@ const NavBar = () => {
           Linkedin
         </a>
       </li>
-      <li className="mr-4 text-lg">
+      <li className="mr-4 text-lg text-slate-400">
         <a href="https://github.com/faraazhossainimran" target="_blank">
           Github
         </a>
       </li>
-      <li className="mr-4 text-lg">
+      <li className="mr-4 text-lg text-slate-400">
         <a href=" https://twitter.com/Ho34059710Imran" target="_blank">
           Twitter
         </a>

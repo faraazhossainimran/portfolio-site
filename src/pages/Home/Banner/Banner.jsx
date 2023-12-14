@@ -26,16 +26,16 @@ const Banner = () => {
           <div className="flex items-center">
             <div className="relative text-left px-8">
               {/* <p className="text-xl">Introduction</p> */}
-              <h1 className="text-3xl mt-6 leading-16 text-center md:text-left text-[#e0e0e0]">
+              <h1 className="text-3xl mt-6 leading-16 text-center md:text-left text-slate-400">
                 Hello, My name's Imran Hossain
               </h1>
-              <div id="typewriter" className="text-2xl mt-4 text-[#e0e0e0]"></div>
-              <p className="pt-6 pb-4 text-[18px] text-[#e0e0e0]">
+              <div id="typewriter" className="text-2xl mt-4 text-slate-400"></div>
+              <p className="pt-6 pb-4 text-[18px] text-slate-400">
                 I'm Passionate about creating solutions that enhance lives and solve
                 real-world problems. Let's code for a better tomorrow! 🌍
               </p>
               <div className="flex my-4">
-                <p className="text-xl pt-2">Tech Stack: </p>
+                <p className="text-xl pt-2 text-slate-400">Tech Stack: </p>
                 <TechStack></TechStack>
               </div>
               <button className="">
@@ -56,7 +56,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="avatar hidden md:block ">
-          <div className="md:w-[250px] rounded-full border-2">
+          <div className="md:w-[250px] rounded-full border-2 border-slate-300">
             <img
               className=""
               src="https://i.ibb.co/fDDfWqn/369572563-1378054442779951-4673260431813722840-n-removebg-preview.png"

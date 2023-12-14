@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import 'aos/dist/aos.css';
+import Aos from "aos";
 const Experience = () => {
+  useEffect(()=> {
+    Aos.init({duration: 800})
+  },[])
   return (
     <div className="py-12 m-4">
       <h1 className="text-3xl text-[#a6c7e3] my-12 text-center">Experience</h1>
       <ul className="timeline timeline-vertical">
         <li>
-          <div className="timeline-start ">
-            <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+          <div className="timeline-start " data-aos="fade-right">
+            <div className="timeline-end timeline-box bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 text-white border-t-2 border-[#a6c7e3]">
               <h3 className="text-2xl text-[#a6c7e3]">Assistant English Teacher</h3>
-              <p className="text-xl ">
+              <p className="text-xl text-slate-300">
                 October 2022 - Present | Tunzimul Ummah Madrasah
               </p>
             </div>
@@ -27,17 +32,17 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+          <div data-aos="fade-left" className="text-slate-300 timeline-end timeline-box text-xl bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 border-t-2 border-[#a6c7e3]">
             Curently, I'm teaching English as an assistant English Teacher.
           </div>
           <hr />
         </li>
         <li>
           <hr />
-          <div className="timeline-start ">
-            <div className="timeline-end timeline-box bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+          <div className="timeline-start " data-aos="fade-right">
+            <div className="timeline-end timeline-box bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 text-white border-t-2 border-[#a6c7e3]">
               <h3 className="text-2xl text-[#a6c7e3]">Mentor and Co-ordinator</h3>
-              <p className="text-xl">
+              <p className="text-xl text-slate-300">
                 July 2018 - August 2022 | Steps Academic and Admission Care
               </p>
             </div>
@@ -56,7 +61,7 @@ const Experience = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end timeline-box text-xl bg-[#1e293c] text-white border-t-2 border-[#a6c7e3]">
+          <div data-aos="fade-left" className="text-slate-300 timeline-end timeline-box text-xl bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6 border-t-2 border-[#a6c7e3]">
             I was a co-ordinator as well as mentor. I had taken physics class
           </div>
           <hr />

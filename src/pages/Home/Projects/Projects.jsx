@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../../../components/Button/Button";
 import { IoLogoReact } from "react-icons/io5";
 import { BiLogoJavascript } from "react-icons/bi";
@@ -6,7 +6,12 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
+import 'aos/dist/aos.css';
+import Aos from "aos";
 const Projects = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const projectData = [
     {
       id: 1,
@@ -36,7 +41,7 @@ const Projects = () => {
         description:
           "BookVista is a hotel management website. FIrebase, node.js, Express.js, React.js has been used to build this site. Users can reveiws about their hotel experience, book hotels as their needed.",
         githubLink: "https://github.com/faraazhossainimran/BookVista",
-        liveSiteLink: "https://bookvista-9b00d.web.app/",
+        liveSiteLink: "https://fancy-bavarois-0487f7.netlify.app/",
       },
   ];
 
@@ -44,21 +49,21 @@ const Projects = () => {
     <div className="m-4">
       <h1 className="text-3xl my-12 font-semibold text-[#a6c7e3]">Recent Projects</h1>
       {projectData.map((project) => (
-        <div key={project.id} className="hero bg-[#1e293c] my-6">
+        <div data-aos="fade-up" key={project.id} className="hero bg-gradient-to-b from-gray-900 via-gray-900 to-gray-700 my-6">
           <div className="hero-content flex-col lg:flex-row">
             <img src={project.imageSrc} className="w-[370px] rounded-lg shadow-2xl " alt={project.title} />
             <div>
               <div className="text-white">
-                <h1 className="text-3xl font-bold text-[#e0e0e0]">{project.title}</h1>
+                <h1 className="text-3xl font-bold text-slate-400">{project.title}</h1>
                 <div className="pt-2 text-white">
-                  <p className="flex flex-wrap"><span className="text-xl">Tech Stack:</span> {project.technologies.map((tech, index) => (
+                  <p className="flex flex-wrap"><span className="text-xl text-slate-400">Tech Stack:</span> {project.technologies.map((tech, index) => (
                     <div key={index} className="ml-4 mr-4 text-3xl">
                       <p className="py-2 md:py-0">{tech}</p>
                     </div>
                   ))}</p>
                 </div>
               </div>
-              <p className="py-6 text-[#e0e0e0]">{project.description}</p>
+              <p className="py-6 text-slate-400">{project.description}</p>
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 <button><Button label={"Github"}></Button></button>
               </a>

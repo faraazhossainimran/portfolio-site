@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Skills.css'
+import 'aos/dist/aos.css';
+import Aos from "aos";
 const Skills = () => {
+  useEffect(()=> {
+    Aos.init()
+  },[])
   return (
-    <div className="py-16">
+    <div className="py-16 " >
       <h1 className="text-3xl my-16 text-center text-[#a6c7e3]">My Skills</h1>
-      <div className="grid grid-cols-2 md:grid-cols-6 place-items-center gap-12">
+      <div className="grid grid-cols-2 md:grid-cols-6 place-items-center gap-12 " data-aos="fade-left">
         <div>
           <div
             className="radial-progress text-[#097969]"
