@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Button from "../../../components/Button/Button";
 import "./Banner.css";
 import Typewriter from "typewriter-effect/dist/core";
-import resume from "../../../assets/files/resume-imran-hossain.pdf"
+import resume from "../../../assets/files/resume-imran-hossin-frontend-developer.pdf"
 import TechStack from "../../../components/TechStack/TechStack";
 
 const Banner = () => {
@@ -41,7 +41,7 @@ const Banner = () => {
               <button className="">
                 <a
                   href={resume}
-                  download={"resume-imran-hossain.pdf"}
+                  download={"resume-imran-hossin-frontend-developer.pdf"}
                 >
                   <Button label={"Download Resume"}></Button>
                 </a>
