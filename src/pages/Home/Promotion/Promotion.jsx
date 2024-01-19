@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Button from "../../../components/Button/Button";
-import resume from "../../../assets/files/Imran-Hossain-Resume-Frontend-Developer.pdf";
-import { Link } from "react-scroll";
+import resume from "../../../assets/files/resume-imran-hossain-dev.pdf";
 import Socials from "../../../components/Socials/Socials";
 import 'aos/dist/aos.css';
 import Aos from "aos";
@@ -43,7 +42,7 @@ const Promotion = () => {
             </div>
           </div>
           <div className="">
-            <a href={resume} download={"Imran-Hossain-Resume-Frontend-Developer.pdf"}>
+            <a href={resume} download={"resume-imran-hossain-dev.pdf"}>
               <Button label={"Download Resume"}></Button>
             </a>
           </div>
