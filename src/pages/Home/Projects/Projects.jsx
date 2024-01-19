@@ -21,7 +21,7 @@ const Projects = () => {
       description:
         "ProductPeak is has a separate user experience for the users, admins and modarators. It is a platform that solves users lack of information about latest and trending tech products. MERN Stack is being used to build it.",
       githubLink: "https://github.com/faraazhossainimran/ProductPeak",
-      liveSiteLink: "https://product-peak-568e6.web.app/",
+      liveSiteLink: "https://steady-kelpie-61d494.netlify.app",
     },
     {
         id: 1,
@@ -31,7 +31,7 @@ const Projects = () => {
         description:
           "It is a event management site called hackathon. Hackathon event is a 12-hour beginner-friendly hackathon designed to be your first hackathon experience. They provide venue, mentors etc. MERN Stack is being used to build it.",
         githubLink: "https://github.com/faraazhossainimran/hackathor-event",
-        liveSiteLink: "https://hackathon-event-4483a.web.app/",
+        liveSiteLink: "https://boisterous-druid-658c27.netlify.app",
       },
       {
         id: 1,
@@ -41,7 +41,7 @@ const Projects = () => {
         description:
           "BookVista is a hotel management website. FIrebase, node.js, Express.js, React.js has been used to build this site. Users can reveiws about their hotel experience, book hotels as their needed.",
         githubLink: "https://github.com/faraazhossainimran/BookVista",
-        liveSiteLink: "https://fancy-bavarois-0487f7.netlify.app/",
+        liveSiteLink: "https://fabulous-pie-8831e7.netlify.app",
       },
   ];
 
