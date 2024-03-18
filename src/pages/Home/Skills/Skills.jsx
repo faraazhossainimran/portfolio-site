@@ -16,7 +16,7 @@ const Skills = () => {
             style={{ "--value": 70 }}
             role="progressbar"
           >
-            85%
+            90%
           </div>
           <h2 className="text-[#a6c7e3] text-center pt-4 ">React.js</h2>
         </div>
@@ -26,7 +26,7 @@ const Skills = () => {
             style={{ "--value": 70 }}
             role="progressbar"
           >
-            60%
+            70%
           </div>
           <h2 className="text-[#a6c7e3] text-center pt-4">Node.js</h2>
         </div>
@@ -46,7 +46,7 @@ const Skills = () => {
             style={{ "--value": 90 }}
             role="progressbar"
           >
-            82%
+            88%
           </div>
           <h2 className="text-[#a6c7e3] text-center pt-4">JavaScript.js</h2>
         </div>
@@ -56,7 +56,7 @@ const Skills = () => {
             style={{ "--value": 90 }}
             role="progressbar"
           >
-            80%
+            85%
           </div>
           <h2 className="text-[#a6c7e3] text-center pt-4">Tailwind.css</h2>
         </div>
@@ -66,7 +66,7 @@ const Skills = () => {
             style={{ "--value": 90 }}
             role="progressbar"
           >
-            90%
+            95%
           </div>
           <h2 className="text-[#a6c7e3] text-center pt-4">Html/CSS</h2>
         </div>
