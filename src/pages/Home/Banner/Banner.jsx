@@ -41,7 +41,7 @@ const Banner = () => {
               <button className="">
                 <a
                   href={resume}
-                  download={"resume-imran-hossain-dev.pdf"}
+                  download={"Frontend-Developer-Imran-Hossain-dev.pdf"}
                 >
                   <Button label={"Download Resume"}></Button>
                 </a>

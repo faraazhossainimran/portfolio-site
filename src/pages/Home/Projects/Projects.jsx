@@ -6,6 +6,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiMongodb } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import 'aos/dist/aos.css';
 import Aos from "aos";
 const Projects = () => {
@@ -15,19 +17,29 @@ const Projects = () => {
   const projectData = [
     {
       id: 1,
-      title: "ProductPeak",
-      imageSrc: "https://i.ibb.co/Pt2mCVD/Screenshot-2023-12-13-033552.png",
-      technologies: [<IoLogoReact className="text-[#87CEEB] animate-spin"></IoLogoReact>, <SiMongodb className="text-[#00A36C]"></SiMongodb>, <BiLogoJavascript className=" text-[#FFFF00]"></BiLogoJavascript>, <SiTailwindcss className="text-[#87CEEB]"></SiTailwindcss>,<IoLogoFirebase className="text-[#FFFF00]"></IoLogoFirebase>, <SiAxios className="text-[#7e50ff]"></SiAxios>],
+      title: "KeyStorm",
+      imageSrc: "https://i.ibb.co/2Y778mY/Screenshot-2024-04-18-175756.png",
+      technologies: [<SiNextdotjs cursor={"pointer"} title="Next.js" className="text-[white]"></SiNextdotjs>,<SiTypescript title="TypeScript.js" className="text-[#87CEEB]"/>, <SiMongodb title="MongoDb" className="text-[#00A36C]"></SiMongodb>, <BiLogoJavascript title="JavaScript" className=" text-[#FFFF00]"></BiLogoJavascript>, <SiTailwindcss title="Tailwind.css" className="text-[#87CEEB]"></SiTailwindcss>,<IoLogoFirebase title="firebase" className="text-[#FFFF00]"></IoLogoFirebase>, <SiAxios title="Axios" className="text-[#7e50ff]"></SiAxios>],
       description:
-        "ProductPeak is has a separate user experience for the users, admins and modarators. It is a platform that solves users lack of information about latest and trending tech products. MERN Stack is being used to build it.",
-      githubLink: "https://github.com/faraazhossainimran/ProductPeak",
-      liveSiteLink: "https://steady-kelpie-61d494.netlify.app",
+        "KeyStorm is a typing test web apps where user can improve skills through auto generated text. In the profile page, user will get a brief overview of his current skills and statics such as wpm, accuracy, top speed, average speed, lessons, average accuracy. There is a leaderboard for the all time best typists on high scores page. Also, user need to authenticate for the dashboard page and statics.",
+      githubLink: "https://github.com/orgs/Team-Trinity/repositories",
+      liveSiteLink: "https://type-storm-one.vercel.app/",
     },
+    // {
+    //   id: 1,
+    //   title: "ProductPeak",
+    //   imageSrc: "https://i.ibb.co/Pt2mCVD/Screenshot-2023-12-13-033552.png",
+    //   technologies: [<IoLogoReact className="text-[#87CEEB] animate-spin"></IoLogoReact>, <SiMongodb className="text-[#00A36C]"></SiMongodb>, <BiLogoJavascript className=" text-[#FFFF00]"></BiLogoJavascript>, <SiTailwindcss className="text-[#87CEEB]"></SiTailwindcss>,<IoLogoFirebase className="text-[#FFFF00]"></IoLogoFirebase>, <SiAxios className="text-[#7e50ff]"></SiAxios>],
+    //   description:
+    //     "ProductPeak is has a separate user experience for the users, admins and modarators. It is a platform that solves users lack of information about latest and trending tech products. MERN Stack is being used to build it.",
+    //   githubLink: "https://github.com/faraazhossainimran/ProductPeak",
+    //   liveSiteLink: "https://steady-kelpie-61d494.netlify.app",
+    // },
     {
         id: 1,
         title: "Hackathon Event",
         imageSrc: "https://i.ibb.co/bbbBQd1/Screenshot-2023-12-13-033337.png",
-        technologies: [<IoLogoReact className="text-[#87CEEB] animate-spin"></IoLogoReact>, <BiLogoJavascript className=" text-[#FFFF00]"></BiLogoJavascript>, <SiTailwindcss className="text-[#87CEEB]"></SiTailwindcss>,<IoLogoFirebase className="text-[#FFFF00]"></IoLogoFirebase>],
+        technologies: [<IoLogoReact title="React.js" className="text-[#87CEEB] animate-spin"></IoLogoReact>, <BiLogoJavascript title="JavaScript" className=" text-[#FFFF00]"></BiLogoJavascript>, <SiTailwindcss title="" className="text-[#87CEEB]"></SiTailwindcss>,<IoLogoFirebase className="text-[#FFFF00]"></IoLogoFirebase>],
         description:
           "It is a event management site called hackathon. Hackathon event is a 12-hour beginner-friendly hackathon designed to be your first hackathon experience. They provide venue, mentors etc. MERN Stack is being used to build it.",
         githubLink: "https://github.com/faraazhossainimran/hackathor-event",
